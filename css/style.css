@@ -1,12 +1,9 @@
-<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-// Add the new slick-theme.css if you want the default styling
-<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-
 @font-face {
   font-family: 'Metropolis';
   font-weight: 300;
   font-style: normal;
   src: local("Metropolis-Light"), url("../fonts/web/eot/Metropolis-Light?#iefix") format("embedded-opentype"), url("../fonts/web/woff2/Metropolis-Light.woff2") format("woff2"), url("../fonts/web/woff/Metropolis-Light.woff") format("woff"), url("../fonts/desktop/mac/Metropolis-Light.otf") format("opentype"), url("../fonts/desktop/pc/Metropolis-Light.ttf") format("truetype");
+}
 
 @font-face {
   font-family: 'Metropolis';
@@ -16,7 +13,6 @@
 }
 
 :root {
-  color:black
    font-size: 24px;
    font-family: 'Metropolis';
 }
@@ -84,7 +80,7 @@
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  text-align: Right-aligned;
+  text-align: Right;
   font-size: 14px;
 }
 
